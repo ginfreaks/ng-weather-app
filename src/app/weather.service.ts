@@ -7,7 +7,7 @@ import { Forecast, Weather } from './weather';
 })
 export class WeatherService {
   private apiUrl = 'https://api.openweathermap.org/data/2.5/';
-  private apiKey = '058194bbfd677539ad8b6ea4336f021d';
+  private apiKey = 'Your api Key';
   constructor(private http: HttpClient) { }
 
   getWeather(city: string): Observable<Weather> {
